@@ -1,0 +1,23 @@
+{
+  "name": "Nuestros Momentos",
+  "short_name": "Nosotros",
+  "description": "Un diario privado para guardar los momentos, regalos y dibujos de tu pareja.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff5f7",
+  "theme_color": "#c9184a",
+  "lang": "es",
+  "categories": ["lifestyle", "photo"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Escanear un dibujo", "url": "./index.html#/nuevo?scan=1" },
+    { "name": "Nuevo recuerdo", "url": "./index.html#/nuevo" },
+    { "name": "Fechas importantes", "url": "./index.html#/fechas" }
+  ]
+}
